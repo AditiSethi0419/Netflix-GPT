@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../Header';
+import Login from '../Login';
 
 const Body = () => {
   return (
@@ -17,6 +18,7 @@ const Body = () => {
 
       {/* Header and routed content */}
       <Header />
+      <Login />
       <div className="relative z-10">
         <Outlet />
       </div>
